@@ -1,0 +1,32 @@
+
+:host { /* Representa todo o componente Angular */
+
+    
+    display: flex; /* Ativa o Flexbox para facilitar o alinhamento dos elementos */
+
+    flex-direction: column; /* Organiza os elementos na vertical */
+
+    align-items: center; /* Centraliza horizontalmente */
+
+    text-align: center; /* Centraliza os textos */
+
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+/* Cor de fundo da página */
+body {
+    background-color: rgb(223, 223, 162);
+}
+
+/* Centraliza imagens */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Remove o recuo padrão das listas */
+ul, ol {
+    padding: 0;
+    list-style-position: inside;
+}
+
