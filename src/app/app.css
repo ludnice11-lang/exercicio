@@ -11,12 +11,16 @@
     text-align: center; /* Centraliza os textos */
 
     min-height: 100vh; /* Ocupa toda a altura da tela */
+    /* Cria uma borda preta de 4 pixels */
+    border: 4px solid navy;
+
+
+    border-radius: 15px;/* Arredonda os cantos da borda */
+    border: 20px solid rgb(148, 60, 60);
+
+    margin: 40px; /* Cria um espaço entre a borda e a borda da tela */
 }
 
-/* Cor de fundo da página */
-body {
-    background-color: rgb(223, 223, 162);
-}
 
 /* Centraliza imagens */
 img {
@@ -29,4 +33,3 @@ ul, ol {
     padding: 0;
     list-style-position: inside;
 }
-
