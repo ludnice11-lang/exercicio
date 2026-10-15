@@ -18,7 +18,7 @@
     border-radius: 15px;/* Arredonda os cantos da borda */
     border: 20px solid rgb(148, 60, 60);
 
-    margin: 40px;* Cria um espaço entre a borda e a borda da tela */
+    margin: 40px; /* Cria um espaço entre a borda e a borda da tela */
 }
 
 
@@ -33,4 +33,3 @@ ul, ol {
     padding: 0;
     list-style-position: inside;
 }
-
